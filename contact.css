@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background-color: #d48e00;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.navbar h1 {
+  font-weight: bold;
+}
+
+.navbar nav a {
+  color: black;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+}
+
+.contact-section .subtext {
+  color: #555;
+  font-size: 14px;
+}
+
+form {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f0f0f0;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  height: 60px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+.datetime {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 1rem 2rem;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.footer-right a {
+  margin-left: 10px;
+  font-size: 18px;
+}
